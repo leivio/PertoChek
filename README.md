@@ -4,9 +4,9 @@ Interface com Impressora PertoChek
 
 ## Samples
 
-with TPertoCheque.Create('COM3') do
-
 ```pascal
+
+  with TPertoCheque.Create('COM3') do
   try
     with Add do
     begin
