@@ -1,9 +1,12 @@
 # PertoChek
+
 Interface com Impressora PertoChek
 
-Exemplos:
+## Samples
 
-  with TPertoCheque.Create('COM3') do
+with TPertoCheque.Create('COM3') do
+
+```pascal
   try
     with Add do
     begin
@@ -21,3 +24,12 @@ Exemplos:
   finally
     Free;
   end;
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
